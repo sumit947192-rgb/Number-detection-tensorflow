@@ -1,0 +1,3 @@
+#Prepare MNIST data.
+#download the dataset
+from tensorflow.keras.datasets import mnist
