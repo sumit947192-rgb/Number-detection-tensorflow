@@ -1,0 +1,11 @@
+name: mnist-proj
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - tensorflow>=2.15
+      - numpy>=1.24
+      - ipykernel
